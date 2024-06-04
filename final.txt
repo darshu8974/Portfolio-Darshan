@@ -202,7 +202,24 @@ then loadbalancing - give load balancer name
 
 
 
-//EX 10 ec2 code bash
+//EX 10 Nlb creation 
+
+//steps:
+
+1.	Create 2 instances 
+2.	Make sure to connect the instance 
+3.	Go to load balancers and click create load balancer
+4.	Click network load balancer and then proceed
+5.	Provide a suitable name 
+6.	Then give create a new security group
+7.	In that page, give a name for the security group and provide inblound rules,then create
+8.	Then select create target group -> target group name 
+9.	Then select the instances to be include as pending ->then create target
+10.	Give your target name and click create
+11.	Until the provision name becomes active , wait
+12.	If u click dns , u will get the successful response.
+
+
 
 #!/bin/bash
 
